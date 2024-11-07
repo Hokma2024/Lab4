@@ -13,5 +13,7 @@ public class Main
         library1.addBook(eBook1);
         library1.addBook(printedBook1);
         library1.printAllBooks();
+        library1.popBook();
+        library1.collectAllInfo();
     }
 }
